@@ -1,0 +1,23 @@
+[
+  {
+    "id": "Clasica2",
+    "title": "Clasica roja",
+    "talle": "22",
+    "price": 900,
+    "size": "small"
+  },
+  {
+    "id": "Clasica13",
+    "title": "Clasica naranja",
+    "talle": "22",
+    "price": 900,
+    "size": "small"
+  },
+  {
+    "id": "Clasica34",
+    "title": "Clasica violeta",
+    "talle": "22",
+    "price": 900,
+    "size": "small"
+  }
+]
