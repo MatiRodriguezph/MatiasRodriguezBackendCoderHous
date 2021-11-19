@@ -68,9 +68,9 @@ class Modelo {
       let data = await fs.promises.readFile("./files/events.txt", "utf-8");
       let events = JSON.parse(data);
       console.log(events);
-      return { status: "succes", message: "succes al leer el archivo", events };
+      return { status: "succes", message: "productos encontrados", events };
     } catch (error) {
-      return { status: "error", message: "error al leer el archivo" + error };
+      return { status: "error", message: "error al encontrar los productos" + error };
     }
   }
 
@@ -84,12 +84,12 @@ class Modelo {
           "./files/events.txt",
           JSON.stringify(events, null, 2)
         );
-        return { status: "succes", message: "succes al leer el archivo" };
+        return { status: "succes", message: "exito al borrar el archivo" };
       } catch (error) {
         return { status: "error", message: "error al leer el archivo" + error };
       }
     } catch (error) {
-      return { status: "error", message: "error al leer el archivo" + error };
+      return { status: "error", message: "no se pudo borrar el archivo" + error };
     }
   }
 

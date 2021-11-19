@@ -19,5 +19,12 @@
     "talle": "22",
     "price": 900,
     "size": "small"
+  },
+    {
+    "id": "Clasica15",
+    "title": "Clasica amarilla",
+    "talle": "28",
+    "price": 1500,
+    "size": "small"
   }
 ]
